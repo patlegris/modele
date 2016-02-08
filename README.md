@@ -1,8 +1,11 @@
 # Modele
-Concept french modele based on vagrant/Ubuntu64/Wordpress for local development.
+Concept French "modele" based on vagrant/UbuntuServer64/Wordpress for local development on Windows 8.1
 
 #SPECIAL THANKS to :
-arifulhb/devspace for the vagrant deploy scripts and repo installs
+arifulhb/devspace for the vagrant deploy scripts and repo installs.
+The original version of devspace is only tested on Mac, this one is corrected to use on Windows environment.
+Bootstrap.sh has been modified (light modifying, sorry...).
+
 
 #DevSpace Vagrant
 DevSpace Vagrant is a simple __Ubuntu Trusty64__ vagrant configuration for LAMP stack developers which also includes many related modern development tools.
@@ -15,7 +18,7 @@ This vagrant use [ubuntu/trusty64](https://atlas.hashicorp.com/ubuntu/boxes/trus
   You need to place your projects in `projects` directory. This directory is synced with `/var/www/html` directory in the virtual machine. 
   This project folder also contain a `config` folder which is used during the provisioning. 
 
-This vagrant box is configured to use '1024mb' of RAM and 1 Cpu. You can change ths configuration from Vagrantfile.
+This vagrant box is configured to use '2048mb' of RAM and 1 Cpu. You can change ths configuration from Vagrantfile.
  
 ## Included packages
 
@@ -43,13 +46,13 @@ The following dependencies are installed using apt-get as they are required to i
 ### Install via Git
 To use DevSpace vagrant, clone this github repo 
 
-    $ git clone https://github.com/arifulhb/devspace.git
-to your mac/pc/linux.  When clone is complete, go to the `devspace` and now you are ready to use your Virtual Machine.
+    $ git clone https://github.com/patlegris/modele
+to your mac/pc/linux.  When clone is complete, go to the `modele` and now you are ready to use your Virtual Machine.
 
 ### Use
 Start the VM
 
-    $ cd /devspace
+    $ cd /modele
     $ vagrant up
 
 First time of your 'vagrant up' will provision the vagrant. You can see the status of your VM from [http://192.168.33.10](http://192.168.33.10).
@@ -79,7 +82,6 @@ These are credentials setup by default.
  
 ### Disclaimer
 <<<<<<< HEAD
-This vagrantfile and provision is only tested in Mac.
+Nobody, and not me, could be responsable in accuracy of using this repositories in case of troubleshouting, lost datas, lost programming, lost money or/and in any others case. This deployement is for use in PERSONNAL TESTS ONLY.
 =======
-This vagrantfile and provision is only tested in Mac.
 >>>>>>> 3723a671b61fb784d067c0416c60e05454684341
