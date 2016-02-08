@@ -75,4 +75,8 @@ These are credentials setup by default.
 
  
 ### Disclaimer
+<<<<<<< HEAD
 This vagrantfile and provision is only tested in Mac.
+=======
+This vagrantfile and provision is only tested in Mac.
+>>>>>>> 3723a671b61fb784d067c0416c60e05454684341
