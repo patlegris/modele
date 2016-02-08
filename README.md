@@ -81,7 +81,6 @@ These are credentials setup by default.
 
  
 ### Disclaimer
-<<<<<<< HEAD
 Nobody, and not me, could be responsable in accuracy of using this repositories in case of troubleshouting, lost datas, lost programming, lost money or/and in any others case. This deployement is for use in PERSONNAL TESTS ONLY.
 =======
->>>>>>> 3723a671b61fb784d067c0416c60e05454684341
+
