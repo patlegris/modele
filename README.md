@@ -1,5 +1,8 @@
 # Modele
-Concept french modele based on vagrant/Ubuntu64/Wordpress for local development
+Concept french modele based on vagrant/Ubuntu64/Wordpress for local development.
+
+#SPECIAL THANKS to :
+arifulhb/devspace for the vagrant deploy scripts and repo installs
 
 #DevSpace Vagrant
 DevSpace Vagrant is a simple __Ubuntu Trusty64__ vagrant configuration for LAMP stack developers which also includes many related modern development tools.
