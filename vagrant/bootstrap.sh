@@ -50,6 +50,8 @@ sudo apt-get install mysql-server-5.5 -y > /dev/null
 sudo apt-get install mysql-server -y -f > /dev/null
 sudo apt-get install -y mysql-client > /dev/null
 
+#echo "update"
+#sudo apt-get update mysql > /dev/null
 
 # Apache Configuration
 echo "Configuring Apache"
@@ -71,13 +73,20 @@ sudo mv composer.phar /usr/local/bin/composer > /dev/null
 echo "Installing Node"
 sudo curl -sL https://deb.nodesource.com/setup | sudo bash - > /dev/null
 sudo sudo apt-get install -y nodejs > /dev/null
-sudo npm install npm -g
+sudo -H npm install npm -g
+
+echo "Installing last version of lodash"
+sudo npm install lodash -g > /dev/null
+
+echo "Installing Grunt"
+sudo npm install grunt -g > /dev/null
+sudo npm install grunt-cli -g > /dev/null
 
 echo "Installing Bower"
 sudo npm install bower -g > /dev/null
 
 echo "Installing Gulp"
-sudo npm install Gulp -g > /dev/null
+sudo npm install gulp -g > /dev/null
 
 
 echo "Finished provisioning."
