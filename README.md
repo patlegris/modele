@@ -81,5 +81,5 @@ These are credentials setup by default.
 
  
 ## Disclaimer
-Nobody, and not me, could be responsable in accuracy of using this repositories in case of troubleshouting, lost datas, lost programming, lost money or/and in any others case. This deployement is for use in PERSONNAL TESTS ONLY.
+Nobody, and not me, should be responsable in accuracy of using this repositories in case of troubleshouting, lost datas, lost programming, lost money or/and in any others case. This deployement is for use in PERSONNAL TESTS ONLY.
 
