@@ -103,7 +103,7 @@ The original version of devspace is only tested on Mac, this one is modified to 
 Install script for phpMyAdmin an some others little things...
 [https://github.com/digitalocean/do_user_scripts/tree/master/Ubuntu-14.04/web-servers] (https://github.com/digitalocean/do_user_scripts/tree/master/Ubuntu-14.04/web-servers)
 
-###https://gist.github.com/rrosiek/8190550
+###github.com/rrosiek/8190550
 Vagrant provision script for php, Apache, MySQL, [phpMyAdmin], Laravel, and javascript helpers. Outputs nearly everything to /dev/null since "quiet" on most commands is still noisy.
 
 #Feedback
