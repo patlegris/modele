@@ -6,6 +6,7 @@ Vagrant.configure(2) do |config|
 
   # Setup port forwarding
   config.vm.network "forwarded_port", guest: 80, host: 8080, auto_correct: true
+  config.vm.network "forwarded_port", guest: 9200, host: 9200
 
   # Setup network
   config.vm.network "private_network", ip: "192.168.33.10"
@@ -16,10 +17,10 @@ Vagrant.configure(2) do |config|
   # CUSTOMIZATION
    config.vm.provider "virtualbox" do |vb|
 
-     vb.name = "devspace"
+     vb.name = "modele"
   
      # Customize the amount of memory on the VM:
-     vb.memory = "1024"
+     vb.memory = "2048"
      vb.cpus = 1
    end
 
