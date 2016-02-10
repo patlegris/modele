@@ -30,6 +30,8 @@ This vagrant box is configured to use '2048mb' of RAM and 1 Cpu. You can change 
 - Composer _v1.0.0-alpha9_
 - NPM _v1.4.28_
 - Bower _v1.3.12_
+- PHPMyAdmin
+- Javascript component
 - ElasticSearch
 - WP-Cli
 
@@ -92,16 +94,23 @@ These are credentials setup by default.
 ## ElasticSearch
 - Port: 9200
 
-#SPECIAL THANKS to :
+#Thanks to :
 ###github.com/arifulhb/devspace
 DevSpace Vagrant is a Ubuntu Trusty64__ vagrant configuration for LAMP stack developers which also includes many related modern development tools.
 The original version of devspace is only tested on Mac, this one is modified to run on Windows 8.1 environment.
 
 ###github.com/digitalocean/do_user_scripts
 Install script for phpMyAdmin an some others little things...
-[phpMyAdmin](https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-phpmyadmin-on-ubuntu-14-04) is also installed and configured. The file `/root/phpmyadmin` contains the automatically generated passwords for both the MySql root user and the `.htaccess` file protecting the phpMyAdmin login page.
+[https://github.com/digitalocean/do_user_scripts/tree/master/Ubuntu-14.04/web-servers] (https://github.com/digitalocean/do_user_scripts/tree/master/Ubuntu-14.04/web-servers)
 
-# Disclaimer
+###https://gist.github.com/rrosiek/8190550
+Vagrant provision script for php, Apache, MySQL, [phpMyAdmin], Laravel, and javascript helpers. Outputs nearly everything to /dev/null since "quiet" on most commands is still noisy.
+
+#Feedback
+This project is an experiment, and it won't be successful without your feedback.
+Let us know what you think by [opening an issue here on GitHub](https://github.com/patlegris/modele/issues).
+
+#Disclaimer
 Nobody, and not me, could be responsable in accuracy of using this repositories in case of troubleshouting, lost datas, lost softwares, lost money, lost brain or/and in any others case.
 This deployement is for PERSONNAL TESTS ONLY.
 
